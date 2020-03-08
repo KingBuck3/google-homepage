@@ -1,0 +1,162 @@
+
+
+html, body {
+    /* Look into documentation on why body automatically sets a margin */
+    margin: 0;
+}
+
+.container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 86vh;
+    /* border: solid red; */
+}
+
+.logo {
+    margin-top: -11.5em;
+
+}
+
+.search-bar {
+    height: 40px;
+    width: 580px;
+    /* border: width style color */
+    border: 1px solid #dfe1e5;
+    border-radius: 20px;
+    border-width: thin;
+    margin-top: 2em;
+    
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 282px;
+    margin-top: 2.1em;
+    margin-right: 1em;
+
+}
+
+.search-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    width: 128px;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    border-radius: 4px;
+    border-color: #f2f2f2;
+    
+}
+
+.lucky-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    width: 143px;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    border-radius: 4px;
+    border-color: #f2f2f2;
+}
+
+.header-container {
+    display: flex;
+    /* Aligns the children navs to the left and right */
+    justify-content: space-between;
+    color: #7D7C7D;
+    /* border: 2px solid blueviolet; */
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+.left-nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid blue; */
+    width: 85px;
+    height: 40px;
+    margin-left: 1.5em;
+}
+
+.right-nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid yellow; */
+    width: 200px;
+    height: 40px;
+    margin-right: 3.6em;
+}
+
+.footer-container {
+    display: flex;
+    /* Aligns the children navs to the left and right */
+    justify-content: space-between;
+    color: #7D7C7D;
+    border: 2px solid blueviolet;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    margin-top: 1em;
+}
+
+.left-nav-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid blue;
+    width: 296px;
+    height: 40px;
+    margin-left: 1.9em;
+}
+
+.right-nav-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid yellow;
+    width: 188px;
+    height: 40px;
+    margin-right: 1.9em;
+}
+
+/* Removes bullets and padding from list */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li {
+    display: inline;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    opacity: .75;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.profile-picture {
+    border-radius: 20px;
+    height: 30px;
+}
+
+.apps-picture {
+    height: 20px;
+}
